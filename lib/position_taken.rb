@@ -10,9 +10,6 @@ def position_taken(board, index)
       else
         taken
 
-  # advanced solution w/ ternary operator
-      (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
-        false : true
-    end
+      end
   end
 end
